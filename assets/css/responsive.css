@@ -1,0 +1,156 @@
+/* tablet */
+
+@media(min-width: 740px) and (max-width: 1023px) {
+    html {
+        font-size: 55%;
+    }
+    /* content */
+    .content-section .members-list,
+    .content-section .about-text {
+        width: 78%;
+    }
+}
+
+
+/* tablet and mobile */
+
+@media(max-width: 1023px) {
+    /* slider */
+    html {
+        font-size: 60%;
+    }
+    #slider .text-content .text-heading {
+        font-size: 4rem;
+    }
+    /* band */
+    .members-list .member-item {
+        flex-basis: 46%;
+        margin: 5% 2% 5%;
+    }
+    /* show */
+    .show-item {
+        flex-basis: 65%;
+        margin-bottom: 7%;
+    }
+    .btn {
+        padding: 5%;
+    }
+    /* modal */
+    .modal-body .modal-input {
+        padding: 3.5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .modal .modal-container {
+        width: 90%;
+        overflow-y: auto;
+    }
+    .modal-body .modal-btn {
+        padding: 4%;
+    }
+    /* albums */
+    .albums-list .album-item {
+        width: 65%;
+        flex-direction: column;
+    }
+    .album-item+.album-item {
+        margin-top: 5%;
+    }
+    .album-item img {
+        width: 100%;
+    }
+    .album-item .album-info {
+        padding: 5%;
+    }
+    .album-info h2 {
+        margin-bottom: 4%;
+    }
+    .album-info .album-spec {
+        margin-bottom: 4%;
+    }
+    .album-info a {
+        padding: 5%;
+        width: 100%;
+    }
+    /* conatct */
+    .contact-container {
+        flex-direction: column;
+        padding: 3%;
+    }
+    .info #infoSubmit {
+        padding: 3.5%;
+    }
+    /* footer */
+    .social-network a {
+        font-size: 5rem;
+    }
+}
+
+
+/* mobile */
+
+@media(max-width: 739px) {
+    /* header */
+    #header #menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        line-height: 46px;
+        width: 46px;
+        padding: 0 15px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #header #menu-btn:hover {
+        cursor: pointer;
+        background-color: #ccc;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header #menu-btn {
+        display: block;
+    }
+    /* nav bar */
+    #nav {
+        width: 100%;
+    }
+    #nav>li>a {
+        width: 100%;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav .subnav a {
+        text-align: left;
+        color: #fff;
+        padding: 7px 30px;
+    }
+    /* content */
+    .content-section .members-list,
+    .content-section .about-text {
+        width: 90%;
+    }
+    .btn-common,
+    .btn-disable {
+        width: 100%;
+        padding: 5%;
+    }
+    /* shows */
+    .show-item {
+        flex-basis: 80%;
+        margin-bottom: 7%;
+    }
+    /* albums */
+    .albums-list .album-item {
+        width: 80%;
+    }
+}
